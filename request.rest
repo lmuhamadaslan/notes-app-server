@@ -1,0 +1,8 @@
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+    "title": "My first note",
+    "tags": ["note", "important"],
+    "body": "This is my first note"
+}
